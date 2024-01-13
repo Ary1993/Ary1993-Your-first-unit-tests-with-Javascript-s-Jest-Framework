@@ -1,7 +1,7 @@
 // Declaramos una función con el nombre exacto "formEuroToDollar"
 const fromEuroToDollar = function(valueInEuro) {
     // Convertimos el valor a dólares
-    let valueInDollar = valueInEuro * 1.07;
+    let valueInDollar = valueInEuro * 1.0950602;
     // Retornamos el valor en dólares
     return valueInDollar;
 }
@@ -9,7 +9,7 @@ const fromEuroToDollar = function(valueInEuro) {
 // Declaramos una función con el nombre exacto "formDollarToYenes"
 const fromDollarToYen = function(valueInDollar) {
     // Convertimos el valor a yenes
-    let valueInYen = valueInDollar* 156.5;
+    let valueInYen = valueInDollar* 144.81133;
     // Retornamos el valor en yenes
     return valueInYen;
 }
@@ -17,7 +17,7 @@ const fromDollarToYen = function(valueInDollar) {
 // Declaramos una función con el nombre exacto "fromYenToPound"
 const fromYenToPound = function(valueInYen2) {
     // Convertimos el valor a pounds
-    let valueInPound = valueInYen2* 0.87;
+    let valueInPound = valueInYen2* 0.0054161547;
     // Retornamos el valor en pounds
     return valueInPound;
 }
